@@ -196,8 +196,7 @@ public class EmployeeGUI extends javax.swing.JFrame {
                 obj.setHocbong(855.5);
             default:
                 obj.setHocbong(0);
-                break;
-                
+                break;    
         }
         
         SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy", Locale.ENGLISH);
@@ -208,9 +207,7 @@ public class EmployeeGUI extends javax.swing.JFrame {
             obj.format(obj.getNgaysinh()),
             obj.getTruonghoc(),
             obj.getHocluc(),
-            obj.getHocbong()});
-        
-        
+            obj.getHocbong()});             
     }//GEN-LAST:event_btnNhapSVActionPerformed
 
     /**

@@ -22,10 +22,7 @@ public class testProduceArray {
         long[] sp = null;
         // TODO code application logic here
         // Taoh mang san pham
-        Product[] sp = new Product[] {new Product("Sunsilk", 12),
-                                        new Product ("Lifebouy", 5),
-                                        new Product ("Espresso", 2),
-                                        new Product ( "Thien Long",1)};
+        
        System.out.println("Mang ban dau la");
        System.out.println(Arrays.toString(sp));
 //       Produce temp;
@@ -36,7 +33,7 @@ public class testProduceArray {
 //               sp[i] = sp[j];
 //               sp[j] = temp;            
 //           }
-       Arrays.sort(sp, new ProductCompByPrice());
+      
        System.out.println("Mang sap xep tang dan theo gia ca");
        System.out.println(Arrays.toString(sp));
     }
